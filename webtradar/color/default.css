@@ -1,0 +1,13 @@
+a,.tp-caption a.btn:hover{color:#018498;}
+.top-nav-collapse{background:rgba(2,2,2,.9);}
+.navbar-custom ul.nav ul.dropdown-menu li a:hover{color:#018498;}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{background-color:#018498;}
+.widget-avatar .avatar:hover{border:5px solid #018498;}
+.bg-skin{background:#BD2515;}
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus{border-color:#018498;}
+footer{background-color:rgba(35,52,62,1);}
+.btn-skin{color:#fff;background-color:#BD2515;border-color:#BD2515;}
+.btn-skin-bs{color:#fff;background-color:rgba(0,186,208,1);border-color:rgba(0,186,208,1);}
+.btn-skin-bs a{color:#fff;}
+.bg-about{background:linear-gradient(to bottom, white 12%, rgba(35,52,62,1) 12%,rgba(35,52,62,1) 60%,rgb(240,245,249) 40%, rgb(240,245,249) 100%);}
