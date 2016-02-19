@@ -56,7 +56,7 @@ a:focus{text-decoration:none;color:#176e61;}
 .home-section#service{padding-top:70px;}
 .home-section#customer{padding-top:130px;}
 .home-section:last-child{padding-top:100px;}
-.home-section p{margin:10px 0 20px;font-size:16px;line-height:1.6em;}
+.home-section p{margin:10px 0 20px;font-size:16px;line-height:1.6em;margin-bottom: 10px;}
 .home-section h5{font-weight:700;}
 .home-section .contact-header{margin-top:-160px;background-color: rgba(0,186,208,1);text-align: left;color: #FFF;font-size: 16px;text-transform:uppercase;padding:0 10px;font-weight:bold;}
 .home-section .triangle-top{ width: 0;height: 0;border-style: solid;border-width: 40px 40px 0 0;border-color: rgba(0,186,208,1) transparent transparent transparent;line-height: -2px;}
@@ -76,7 +76,7 @@ h2.colorr{color:#02bacf;}
 .bg-about .about-description{margin-left:55%;margin-right:4%;padding:20px;}
 .bg-about .about-description h4{margin:5px 0px;font-weight:800;}
 .bg-about-img{background-image:url(../img/nosotros.jpg); width:50%;height:100%; background-size:800px 100%; background-repeat:no-repeat;position:absolute;left:0;top:12%; }
-.bg-about .rectangle-middle{ font-style: italic;color:#FFF;width: 100%;height: 120px ;background-color: rgb(0,186,208); padding:5px 10px 10px 20px; -webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;}
+.bg-about .rectangle-middle{ font-style: italic;color:#FFF;width: 100% ;background-color: rgb(0,186,208); padding:5px 10px 10px 20px; -webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;}
 .hrlike{border-bottom:1px solid #fff;}
 .nav>li>a{position:relative;display:block;padding:15px 2em;}
 .costa{background-image:url(../img/costa.jpg);}
