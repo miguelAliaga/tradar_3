@@ -270,9 +270,14 @@ footer p{color:#f8f8f8;}
     margin-left:5px;
     margin-rigth:5px;
 }
-.carrousel-caption h2{
-	margin-bottom:-30px;
+.carousel-indicators{
+	bottom:15px;
+}
+.carousel-caption h2{
+	margin-bottom:-60px;
+
 }
 .carousel-indicators{
 	bottom:15px;
+    display: none;
 }
