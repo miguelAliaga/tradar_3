@@ -89,7 +89,7 @@ h2.colorr{color:#02bacf;}
 .contact-nav{background-image:url('../img/icons/ico-contacto.png');background-size:24px 15px;background-position:center center;background-repeat:no-repeat;}
 .carousel-control .icon-prev, .carousel-control .icon-next{width:60px;height:80px;margin-top:-15px;margin-left:-28px;margin-right:-28px;font-size:60px}
 .carousel-control{top:20%;bottom:20%;}
-.service-icon img{height:48px;}
+.service-icon img{height:60px;}
 #overlay{display:none;opacity:0.5;background-color:black;position:fixed;width:100%;height:100%;top:0px;left:0px;z-index:999;}
 #popupBox{display:none;position:fixed;top: 50%;left: 50%;width:31em;height:19em;margin-top: -9em; margin-left: -15em;color:#000000;border:3px solid #FFF;-moz-border-radius:8px;-webkit-border-radius:8px;background-color:rgba(2,2,2,.5);z-index:1000; }
 #popupContent{display:none;font-family:Helvetica, sans-serif; font-size:30px;color:#FFF;margin-top:30px;margin-left:30px;margin-right:30px;text-align: center;}
@@ -274,10 +274,11 @@ footer p{color:#f8f8f8;}
 	bottom:15px;
 }
 .carousel-caption h2{
-	margin-bottom:-60px;
+	margin-bottom:-70px;
 
 }
 .carousel-indicators{
 	bottom:15px;
     display: none;
 }
+.top-nav-collapse{background-color:rgba(0,0,0,.5) !important}
