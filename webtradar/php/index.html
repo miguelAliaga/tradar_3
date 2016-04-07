@@ -523,7 +523,7 @@
 				data: values,
 				contentType: "application/x-www-form-urlencoded;charset=ISO-8859-15"
 			});
-
+			$("input,textarea").val("");
 		  /*  request cab be abort by ajaxRequest.abort() */
 
 		 ajaxRequest.done(function (response, textStatus, jqXHR){

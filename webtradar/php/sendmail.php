@@ -9,7 +9,7 @@
 
 try {
 	echo 'Gracias por contactarnos. Nos comunicaremos en breve.';
-/*	date_default_timezone_set('Etc/UTC');
+	date_default_timezone_set('Etc/UTC');
 	require 'PHPMailerAutoload.php';
 
 	$nombre = $_POST['name'];
@@ -40,7 +40,7 @@ try {
 	// if your network does not support SMTP over IPv6
 
 	//Set the SMTP port number - 587 for authenticated TLS, a.k.a. RFC4409 SMTP submission
-	//$mail->Port = 587;
+	$mail->Port = 587;
 
 	//Set the encryption system to use - ssl (deprecated) or tls
 	//$mail->SMTPSecure = 'tls';
@@ -55,13 +55,13 @@ try {
 	$mail->Password = "noreply_147";
 
 	//Set who the message is to be sent from
-	$mail->setFrom('webmaster@webtradar.esy.es', 'First Last');
+	$mail->setFrom($para, 'Contacto web');
 
 	//Set an alternative reply-to address
 	//$mail->addReplyTo('replyto@example.com', 'First Last');
 
 	//Set who the message is to be sent to
-	$mail->addAddress('user@gmail.com', 'John Doe');
+	$mail->addAddress('Informes@tradar.com.pe');
 
 	//Set the subject line
 	$mail->Subject = $asunto;
@@ -69,10 +69,10 @@ try {
 	//Read an HTML message body from an external file, convert referenced images to embedded,
 	//convert HTML into a basic plain-text alternative body
 	$mail->msgHTML(file_get_contents('contents.html'), dirname(__FILE__));
-
-	$mail->Subject = 'Here is the subject';
-	$mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-	$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+	$mensaje=$mensaje.' de: '.$nombre;
+	$mail->Subject = $asunto;
+	$mail->Body    = $mensaje;
+	$mail->AltBody = $mensaje;
 
 	//Replace the plain text body with one created manually
 	$mail->AltBody = 'This is a plain-text message body';
@@ -86,7 +86,7 @@ try {
 	} else {
 		echo "Message sent!";
 	}
-*/
+
 }
 catch (Exception $e) {
     echo "Excepcion" . $e;
